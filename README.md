@@ -1,2 +1,3 @@
 # Java
-Java Homework
+Java Project
+`Java Project`
