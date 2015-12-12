@@ -22,8 +22,8 @@ public class MergeSort {
 	public static void merge(int[] arr, int p, int q, int r) {
 		int n1 = q - p + 1;
 		int n2 = r - q;
-		int[] L = new int[9999];
-		int[] R = new int[9999];
+		int[] L = new int[arr.length];
+		int[] R = new int[arr.length];
 		for (int i = 0; i < n1; i++)
 			L[i] = arr[p + i];
 		for (int i = 0; i < n2; i++)
