@@ -3,9 +3,9 @@ package chapter9.linked_listnode_rewritten;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê12ÔÂ7ÈÕ ÏÂÎç9:16:52
+ * @since 2015å¹´12æœˆ7æ—¥ ä¸‹åˆ9:16:52
  * 
- *        Ë«ÏòÁ´±í½Úµã
+ *        åŒå‘é“¾è¡¨èŠ‚ç‚¹
  */
 
 public class DoubleLinkedListNode {

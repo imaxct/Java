@@ -3,9 +3,9 @@ package chapter5.pvz;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç7:44:46
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ7:44:46
  * 
- *        Ö²ÎïÀà
+ *        æ¤ç‰©ç±»
  */
 
 public class Plants {

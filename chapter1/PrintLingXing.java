@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ4ÈÕ ÏÂÎç11:32:17
+ * @since 2015å¹´11æœˆ4æ—¥ ä¸‹åˆ11:32:17
  * 
- *        Pro 3.2 ´òÓ¡ÁâĞÎ
+ *        Pro 3.2 æ‰“å°è±å½¢
  */
 
 public class PrintLingXing {

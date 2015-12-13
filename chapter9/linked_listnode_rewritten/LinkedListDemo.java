@@ -3,7 +3,7 @@ package chapter9.linked_listnode_rewritten;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê12ÔÂ7ÈÕ ÏÂÎç6:35:48
+ * @since 2015å¹´12æœˆ7æ—¥ ä¸‹åˆ6:35:48
  * 
  *        Demo
  */

@@ -5,15 +5,15 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ30ÈÕ ÏÂÎç4:39:41
+ * @since 2015å¹´11æœˆ30æ—¥ ä¸‹åˆ4:39:41
  * 
- *        ÖĞ×º±í´ïÊ½ÇóÖµ
+ *        ä¸­ç¼€è¡¨è¾¾å¼æ±‚å€¼
  */
 
 public class ClaculateExp {
 	final static int MAX_ARRAY = 9999;
 
-	// ±È½ÏÓÅÏÈ¼¶
+	// æ¯”è¾ƒä¼˜å…ˆçº§
 	static boolean cmp(char a, char b) {
 		if (b == '(')
 			return true;
@@ -24,7 +24,7 @@ public class ClaculateExp {
 		else
 			return false;
 	}
-	// ×ª»¯Îªºó×º±í´ïÊ½
+	// è½¬åŒ–ä¸ºåç¼€è¡¨è¾¾å¼
 	static void toSuffix(char[] infix, char[] suffix) {
 		int i, j = 0, top = 0;
 		char stack[] = new char[MAX_ARRAY];
@@ -64,7 +64,7 @@ public class ClaculateExp {
 		}
 		suffix[j] = '\0';
 	}
-	// ºó×ºÇóÖµ
+	// åç¼€æ±‚å€¼
 	static int getValue(char[] suffix) {
 		int stack[] = new int[MAX_ARRAY];
 		int top = 0, value = 0;

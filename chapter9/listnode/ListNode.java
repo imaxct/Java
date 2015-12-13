@@ -3,9 +3,9 @@ package chapter9.listnode;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ21ÈÕ ÉÏÎç11:56:32
+ * @since 2015å¹´11æœˆ21æ—¥ ä¸Šåˆ11:56:32
  * 
- *        Á´±í½Úµã
+ *        é“¾è¡¨èŠ‚ç‚¹
  */
 
 public class ListNode {

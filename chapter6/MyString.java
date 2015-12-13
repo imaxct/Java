@@ -3,13 +3,13 @@ package chapter6;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ19ÈÕ ÏÂÎç9:53:13
+ * @since 2015å¹´11æœˆ19æ—¥ ä¸‹åˆ9:53:13
  * 
  *        pro 3.1
  */
 class ArrayIndexOutOfBoundsException extends Exception {
 	private static final long serialVersionUID = 1L;
-	/* ²»¼Ó¾ÍÓÐwarning >_< */
+	/* ä¸åŠ å°±æœ‰warning >_< */
 
 	public ArrayIndexOutOfBoundsException() {
 		super("ArrayIndexOutOfBoundsException: The length is bigger than maximum length(32768)");
@@ -22,7 +22,7 @@ class ArrayIndexOutOfBoundsException extends Exception {
 
 class NegativeArraySizeException extends Exception {
 	private static final long serialVersionUID = 1L;
-	/* ²»¼Ó¾ÍÓÐwarning >_< */
+	/* ä¸åŠ å°±æœ‰warning >_< */
 
 	public NegativeArraySizeException() {
 		super("NegativeArraySizeException: The length is bigger than maximum length(32768)");

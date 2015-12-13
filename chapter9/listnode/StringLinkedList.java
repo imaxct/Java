@@ -3,9 +3,9 @@ package chapter9.listnode;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ21ÈÕ ÏÂÎç12:02:18
+ * @since 2015å¹´11æœˆ21æ—¥ ä¸‹åˆ12:02:18
  * 
- *        Á´±í
+ *        é“¾è¡¨
  */
 
 public class StringLinkedList {

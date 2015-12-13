@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ5ÈÕ ÏÂÎç1:04:06
+ * @since 2015å¹´11æœˆ5æ—¥ ä¸‹åˆ1:04:06
  * 
- *        Pro 3.1 ¼òµ¥µÄÊıÑ§ÔËËã³ÌĞò
+ *        Pro 3.1 ç®€å•çš„æ•°å­¦è¿ç®—ç¨‹åº
  */
 
 public class MathCalculate {

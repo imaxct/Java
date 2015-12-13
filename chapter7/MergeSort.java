@@ -3,7 +3,7 @@ package chapter7;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç10:04:16
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ10:04:16
  * 
  *        MergeSort
  */

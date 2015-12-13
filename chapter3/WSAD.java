@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ5ÈÕ ÏÂÎç1:29:47
+ * @since 2015å¹´11æœˆ5æ—¥ ä¸‹åˆ1:29:47
  * 
  *        Pro 3.1
  */
@@ -25,19 +25,19 @@ public class WSAD {
 			switch (str.charAt(i)) {
 			case 'W':
 			case 'w':
-				System.out.println("Ç°");
+				System.out.println("å‰");
 				break;
 			case 'A':
 			case 'a':
-				System.out.println("×ó");
+				System.out.println("å·¦");
 				break;
 			case 'S':
 			case 's':
-				System.out.println("ºó");
+				System.out.println("å");
 				break;
 			case 'D':
 			case 'd':
-				System.out.println("ÓÒ");
+				System.out.println("å³");
 				break;
 			default:
 				System.out.println("Wrong");

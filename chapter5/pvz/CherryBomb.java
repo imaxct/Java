@@ -3,9 +3,9 @@ package chapter5.pvz;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç8:15:03
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ8:15:03
  * 
- *        Ó£ÌÒÕ¨µ¯
+ *        æ¨±æ¡ƒç‚¸å¼¹
  */
 
 public class CherryBomb extends Plants {

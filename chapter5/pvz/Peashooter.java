@@ -3,9 +3,9 @@ package chapter5.pvz;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç7:50:04
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ7:50:04
  * 
- *        Íã¶¹ÉäÊÖ
+ *        è±Œè±†å°„æ‰‹
  */
 
 public class Peashooter extends Plants {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ19ÈÕ ÏÂÎç10:34:24
+ * @since 2015å¹´11æœˆ19æ—¥ ä¸‹åˆ10:34:24
  * 
  *        Pro 3.1 Fibonacci
  */
@@ -21,7 +21,7 @@ public class Fibonacci {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("ÊäÈëÒ»¸öÕıÕûÊın(²»ÒªÌ«´ó):");
+		System.out.println("è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°n(ä¸è¦å¤ªå¤§):");
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
 		for (int i = 1; i <= n; i++) {

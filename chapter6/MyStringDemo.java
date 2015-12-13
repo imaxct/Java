@@ -3,7 +3,7 @@ package chapter6;
 /**
  * @author Max_CT(imaxct)
  *
- * 2015Äê11ÔÂ19ÈÕ ÏÂÎç10:10:53
+ * 2015å¹´11æœˆ19æ—¥ ä¸‹åˆ10:10:53
  */
 
 import chapter6.MyString;

@@ -3,9 +3,9 @@ package chapter4;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ7ÈÕ ÏÂÎç2:01:00
+ * @since 2015å¹´11æœˆ7æ—¥ ä¸‹åˆ2:01:00
  * 
- *        ÊéÀà
+ *        ä¹¦ç±»
  */
 
 public class Book {

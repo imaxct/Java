@@ -3,9 +3,9 @@ package chapter5.shape;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ30ÈÕ ÏÂÎç5:06:18
+ * @since 2015å¹´11æœˆ30æ—¥ ä¸‹åˆ5:06:18
  * 
- *        pro 3.1 Í¼ĞÎÀàÉè¼Æ--Õı·½ĞÎ
+ *        pro 3.1 å›¾å½¢ç±»è®¾è®¡--æ­£æ–¹å½¢
  */
 
 public class Rectangle extends Shape {

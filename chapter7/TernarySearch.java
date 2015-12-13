@@ -5,9 +5,9 @@ import java.util.Arrays;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç9:30:27
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ9:30:27
  * 
- *        Pro 3.1 Èı·Ö
+ *        Pro 3.1 ä¸‰åˆ†
  */
 
 public class TernarySearch {

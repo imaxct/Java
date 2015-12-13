@@ -3,9 +3,9 @@ package chapter4;
 /**
  * @author Max_CT(imaxct)
  * 
- * @since 2015Äê11ÔÂ7ÈÕ ÏÂÎç1:08:34
+ * @since 2015å¹´11æœˆ7æ—¥ ä¸‹åˆ1:08:34
  * 
- * Pro 3.1 ¸´ÊıÀà²âÊÔ
+ * Pro 3.1 å¤æ•°ç±»æµ‹è¯•
  */
 import chapter4.FushuClass;
 
@@ -17,9 +17,9 @@ public class Fushu {
 	public static void main(String[] args) {
 		FushuClass a = new FushuClass(1, 2);
 		FushuClass b = new FushuClass(3, 4);
-		System.out.println("¸´ÊıÏà¼Ó£º" + FushuClass.add(a, b));
-		System.out.println("¸´ÊıÏà¼õ£º" + FushuClass.dec(a, b));
-		System.out.println("¸´ÊıÏà³Ë£º" + FushuClass.multiply(a, b));
+		System.out.println("å¤æ•°ç›¸åŠ ï¼š" + FushuClass.add(a, b));
+		System.out.println("å¤æ•°ç›¸å‡ï¼š" + FushuClass.dec(a, b));
+		System.out.println("å¤æ•°ç›¸ä¹˜ï¼š" + FushuClass.multiply(a, b));
 	}
 
 }

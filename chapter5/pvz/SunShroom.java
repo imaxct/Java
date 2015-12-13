@@ -3,9 +3,9 @@ package chapter5.pvz;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç8:19:44
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ8:19:44
  * 
- *        Ñô¹âÄ¢¹½
+ *        é˜³å…‰è˜‘è‡
  */
 
 public class SunShroom extends Plants {

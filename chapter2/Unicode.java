@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ5ÈÕ ÏÂÎç1:14:35
+ * @since 2015å¹´11æœˆ5æ—¥ ä¸‹åˆ1:14:35
  * 
  *        Pro 3.2
  */

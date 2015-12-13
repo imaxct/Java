@@ -3,11 +3,11 @@ package chapter9.linked_listnode_rewritten;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê12ÔÂ7ÈÕ ÏÂÎç6:06:28
+ * @since 2015å¹´12æœˆ7æ—¥ ä¸‹åˆ6:06:28
  * 
- *        ÖØĞ´µÄÁ´±í
+ *        é‡å†™çš„é“¾è¡¨
  * 
- * @see head½ö×÷Í·±ê¼Ç,²»´æ´¢Êı¾İ
+ * @see headä»…ä½œå¤´æ ‡è®°,ä¸å­˜å‚¨æ•°æ®
  */
 
 public class LinkedList {
@@ -23,7 +23,7 @@ public class LinkedList {
 		this.swap(head.getSucc(), head.getSucc().getSucc());
 	}
 
-	/* ÅÅĞò */
+	/* æ’åº */
 	public void sort() {
 		if (length == 1) {
 			return;
@@ -62,7 +62,7 @@ public class LinkedList {
 		return x.getData().length() < y.getData().length();
 	}
 
-	/* ½»»»Á½¸öÔªËØ */
+	/* äº¤æ¢ä¸¤ä¸ªå…ƒç´  */
 	public void swap(ListNode a, ListNode b) {
 		if (a == b)
 			return;
@@ -115,7 +115,7 @@ public class LinkedList {
 		}
 	}
 
-	/* »ñÈ¡Ç°Ò»¸öNode */
+	/* è·å–å‰ä¸€ä¸ªNode */
 	private ListNode getPrev(ListNode tar) {
 		ListNode pos = head;
 		while (pos != null) {
@@ -126,7 +126,7 @@ public class LinkedList {
 		return pos;
 	}
 
-	/* ÊÇAfter!ÊÇAfter!ÊÇAfter!²»ÊÇTo */
+	/* æ˜¯After!æ˜¯After!æ˜¯After!ä¸æ˜¯To */
 	public void addNodeAfterHead(String data) {
 		head.setSucc(new ListNode(data, head.getSucc()));
 		length++;

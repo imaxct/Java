@@ -3,9 +3,9 @@ package chapter5.pvz;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç8:09:38
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ8:09:38
  * 
- *        ÏòÈÕ¿û
+ *        å‘æ—¥è‘µ
  */
 
 public class SunFlower extends Plants {

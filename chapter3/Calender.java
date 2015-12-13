@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ5ÈÕ ÏÂÎç1:55:23
+ * @since 2015å¹´11æœˆ5æ—¥ ä¸‹åˆ1:55:23
  * 
  *        Pro 3.3
  */
@@ -18,7 +18,7 @@ public class Calender {
 	static String head = " Sun Mon Tue Wed Thu Fri Sat";
 	static String blank = "                            ";
 
-	/* »ñÈ¡Ò»¸öÈÕÆÚÊÇÐÇÆÚ¼¸ */
+	/* èŽ·å–ä¸€ä¸ªæ—¥æœŸæ˜¯æ˜ŸæœŸå‡  */
 	public static int getWeekOfDate(int year, int month, int day) {
 		Calendar cal = Calendar.getInstance();
 		cal.set(year, month - 1, day);
@@ -28,7 +28,7 @@ public class Calender {
 		return w;
 	}
 
-	/* »ñÈ¡Ò»¸öÔÂµÄ×î´óÈÕÆÚÊÇ¶àÉÙ */
+	/* èŽ·å–ä¸€ä¸ªæœˆçš„æœ€å¤§æ—¥æœŸæ˜¯å¤šå°‘ */
 	public static int getMaxDayOfMonth(int year, int month) {
 		Calendar time = Calendar.getInstance();
 		time.clear();
@@ -38,7 +38,7 @@ public class Calender {
 		return day;
 	}
 
-	/* ½«ÈÕÀúÊäÈëµ½MMÖÐ */
+	/* å°†æ—¥åŽ†è¾“å…¥åˆ°MMä¸­ */
 	public static void makeMonth(int Month, int Year) {
 
 		int st = getWeekOfDate(Year, Month, 1);
@@ -57,7 +57,7 @@ public class Calender {
 		}
 	}
 
-	/* Êä³öÈÕÀú */
+	/* è¾“å‡ºæ—¥åŽ† */
 	public static void outCal(int month, int year) {
 		if (year > 0) {
 			System.out.println(head + "    " + head + "    " + head);
@@ -82,13 +82,13 @@ public class Calender {
 			for (int j = 0; j < 6; j++)
 				MM[i][j] = "";
 		Scanner in = new Scanner(System.in);
-		System.out.println("ÊäÈëÒ»¸öÄê·Ý(´óÓÚ12)»òÕßÔÂ·Ý:");
+		System.out.println("è¾“å…¥ä¸€ä¸ªå¹´ä»½(å¤§äºŽ12)æˆ–è€…æœˆä»½:");
 		int opt = in.nextInt();
 		if (opt > 0 && opt <= 12) {
 			makeMonth(opt, 2011);
 			outCal(opt, 0);
 		} else if (opt < 0) {
-			System.out.println("ºÇºÇ£¬ÊäÈëÎÞÐ§¡¢");
+			System.out.println("å‘µå‘µï¼Œè¾“å…¥æ— æ•ˆã€");
 		} else {
 			for (int i = 1; i <= 12; i++)
 				makeMonth(i, opt);

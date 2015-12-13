@@ -3,9 +3,9 @@ package chapter9.linked_listnode_rewritten;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê12ÔÂ7ÈÕ ÏÂÎç6:02:11
+ * @since 2015å¹´12æœˆ7æ—¥ ä¸‹åˆ6:02:11
  * 
- *        ÖØĞ´µÄÁ´±í½Úµã...
+ *        é‡å†™çš„é“¾è¡¨èŠ‚ç‚¹...
  */
 
 public class ListNode {

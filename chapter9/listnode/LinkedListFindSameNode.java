@@ -3,15 +3,15 @@ package chapter9.listnode;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ21ÈÕ ÏÂÎç12:15:23
+ * @since 2015å¹´11æœˆ21æ—¥ ä¸‹åˆ12:15:23
  * 
- *        Pro 3.1 ÕÒËùÓĞÏàÍ¬µÄÖµµÄ½Úµã
+ *        Pro 3.1 æ‰¾æ‰€æœ‰ç›¸åŒçš„å€¼çš„èŠ‚ç‚¹
  */
 
 public class LinkedListFindSameNode {
 	static final int MOD = 0x3f3f3f;
 
-	/* Çó¹şÏ£Öµ */
+	/* æ±‚å“ˆå¸Œå€¼ */
 	static int mod(String str) {
 		int b = 0;
 		for (int i = 0; i < str.length(); i++)
@@ -19,7 +19,7 @@ public class LinkedListFindSameNode {
 		return b;
 	}
 
-	/* ¹şÏ£±í£¬ÓÃÀ´ÅĞÖØ */
+	/* å“ˆå¸Œè¡¨ï¼Œç”¨æ¥åˆ¤é‡ */
 	static int[] hash = new int[MOD];
 
 	public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class LinkedListFindSameNode {
 		}
 
 		for (int i = 0; i < testArr.length; i++)
-			if (hash[mod(testArr[i])] <= 0) { /*Ö»ÓĞhashÖµÎª0Ê±²Å»á´¦Àí£¬ÒòÎªhashÖµ´óÓÚ0µÄ¶¼ÒÑ¾­±»Í³¼Æ¹ıÁË*/
+			if (hash[mod(testArr[i])] <= 0) { /*åªæœ‰hashå€¼ä¸º0æ—¶æ‰ä¼šå¤„ç†ï¼Œå› ä¸ºhashå€¼å¤§äº0çš„éƒ½å·²ç»è¢«ç»Ÿè®¡è¿‡äº†*/
 				int count = list.findSameValue(testArr[i]);
 				if (count > 1) {
 					hash[mod(testArr[i])]++;

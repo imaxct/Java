@@ -3,9 +3,9 @@ package chapter9.linked_listnode_rewritten;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê12ÔÂ7ÈÕ ÏÂÎç9:16:11
+ * @since 2015å¹´12æœˆ7æ—¥ ä¸‹åˆ9:16:11
  * 
- *        Ë«ÏòÁ´±í
+ *        åŒå‘é“¾è¡¨
  */
 
 public class DoubleLinkedList {
@@ -39,7 +39,7 @@ public class DoubleLinkedList {
 		}
 	}
 
-	/*×Ö·û´®±È½Ï*/
+	/*å­—ç¬¦ä¸²æ¯”è¾ƒ*/
 	private boolean comp(DoubleLinkedListNode x, DoubleLinkedListNode y) {
 		int len = Math.min(x.getData().length(), y.getData().length());
 		for (int i = 0; i < len; i++) {

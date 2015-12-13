@@ -3,9 +3,9 @@ package chapter5.shape;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ12ÈÕ ÏÂÎç7:31:09
+ * @since 2015å¹´11æœˆ12æ—¥ ä¸‹åˆ7:31:09
  * 
- *        pro 3.1 Í¼ĞÎÀàÉè¼Æ
+ *        pro 3.1 å›¾å½¢ç±»è®¾è®¡
  */
 
 public class Shape {

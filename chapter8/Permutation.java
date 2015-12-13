@@ -5,9 +5,9 @@ import java.util.Scanner;
 /**
  * @author Max_CT(imaxct)
  *
- * @since 2015Äê11ÔÂ19ÈÕ ÏÂÎç10:51:26
+ * @since 2015å¹´11æœˆ19æ—¥ ä¸‹åˆ10:51:26
  * 
- *        Pro 3.2 Full-Permutation ³¬¹ı10¾ÍºÜÂıÁË¡£
+ *        Pro 3.2 Full-Permutation è¶…è¿‡10å°±å¾ˆæ…¢äº†ã€‚
  */
 
 public class Permutation {
