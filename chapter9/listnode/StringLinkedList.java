@@ -15,6 +15,19 @@ public class StringLinkedList {
 		head = null;
 	}
 
+	public void reverse() {
+		head = doReverse(head);
+	}
+
+	private ListNode doReverse(ListNode p) {
+		if (p == null || p.getLink() == null)
+			return p;
+		ListNode pnode = doReverse(p.getLink());
+		p.getLink().setLink(p);
+		p.setLink(null);
+		return pnode;
+	}
+
 	public int findSameValue(String str) {
 		int cnt = 0;
 		ListNode pos = head;
