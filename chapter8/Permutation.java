@@ -20,7 +20,7 @@ public class Permutation {
 			System.out.printf("%d%c", a[i], (i < n ? ' ' : '\n'));
 	}
 
-	static void dfs(int now, int sum, int n) {
+	static void dfs(int sum, int n) {
 		if (sum == n) {
 			print(n);
 			return;
@@ -29,15 +29,16 @@ public class Permutation {
 			if (!vis[i]) {
 				vis[i] = true;
 				a[sum + 1] = i;
-				dfs(i, sum + 1, n);
+				dfs(sum + 1, n);
 				vis[i] = false;
 			}
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Input an integer(<=13)");
 		Scanner in = new Scanner(System.in);
 		int n = in.nextInt();
-		dfs(0, 0, n);
+		dfs(0, n);
 		in.close();
 	}
 
