@@ -13,7 +13,7 @@ public class Rectangle extends Shape {
 	private double length;
 	private double width;
 
-	public Rectangle( int length, int width) {
+	public Rectangle(int length, int width) {
 		super("Rectangle");
 		this.setLength(length);
 		this.setWidth(width);
@@ -21,6 +21,10 @@ public class Rectangle extends Shape {
 
 	public double getArea() {
 		return this.length * this.width;
+	}
+
+	public double getCircumference() {
+		return (this.length + this.width) * 2;
 	}
 
 	public String getName() {
@@ -52,7 +56,9 @@ public class Rectangle extends Shape {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Rectangle rect = new Rectangle(4, 8);
+		System.out.println(rect.getArea());
+		System.out.println(rect.getCircumference());
 	}
 
 }

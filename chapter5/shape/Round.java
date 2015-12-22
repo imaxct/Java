@@ -22,6 +22,10 @@ public class Round extends Shape {
 		return Math.PI * this.rad * this.rad;
 	}
 
+	public double getCircumference() {
+		return (2 * Math.PI * this.rad);
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -43,7 +47,9 @@ public class Round extends Shape {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Round rd = new Round(10);
+		System.out.println(rd.getArea());
+		System.out.println(rd.getCircumference());
 	}
 
 }
