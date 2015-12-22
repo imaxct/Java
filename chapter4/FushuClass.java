@@ -34,7 +34,7 @@ public class FushuClass {
 	}
 
 	public String toString() {
-		return "" + x + (y > 0 ? "+" : "") + y + "i";
+		return "" + x + (y > 0 ? "+" : "") + (y != 0 ? y : "" ) + (y != 0 ? "i" : "");
 	}
 
 	/**
