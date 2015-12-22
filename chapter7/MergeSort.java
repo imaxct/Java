@@ -19,19 +19,19 @@ public class MergeSort {
 		}
 	}
 
-	public static void merge(int[] arr, int p, int q, int r) {
-		int n1 = q - p + 1;
-		int n2 = r - q;
-		int[] L = new int[r - p + 1];
-		int[] R = new int[r - p + 1];
+	public static void merge(int[] arr, int left, int mid, int right) {
+		int n1 = mid - left + 1;
+		int n2 = right - mid;
+		int[] L = new int[right - left + 1];
+		int[] R = new int[right - left + 1];
 		for (int i = 0; i < n1; i++)
-			L[i] = arr[p + i];
+			L[i] = arr[left + i];
 		for (int i = 0; i < n2; i++)
-			R[i] = arr[q + i + 1];
+			R[i] = arr[mid + i + 1];
 		L[n1] = 0x7fffffff;
 		R[n2] = 0x7fffffff;
 		int i = 0, j = 0;
-		for (int k = p; k <= r; k++) {
+		for (int k = left; k <= right; k++) {
 			if (L[i] <= R[j])
 				arr[k] = L[i++];
 			else
@@ -40,11 +40,11 @@ public class MergeSort {
 	}
 
 	public static String toString(int[] arr) {
-		String str = "{";
+		String str = "{ ";
 		for (int i = 0; i < arr.length; i++) {
-			str += arr[i] + (i < arr.length - 1 ? "," : "");
+			str += arr[i] + (i < arr.length - 1 ? ", " : "");
 		}
-		str += "}";
+		str += " }";
 		return str;
 	}
 
